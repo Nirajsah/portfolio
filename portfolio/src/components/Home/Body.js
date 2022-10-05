@@ -3,7 +3,7 @@ import Gojo from "./gojo.jpg";
 
 const Body = () => {
   return (
-    <div className="my-[6rem] mx-[7rem]  w-[auto] h-[500px]">
+    <div className="my-[5rem] mx-[6rem]  w-[auto] h-[500px]">
       <div className="flex my-[3rem]">
         <img
           className="border-[1rem] mt-[1rem] drop-shadow-2xl border-white rounded-full ml-[6rem] w-[330px] h-[330px]"
