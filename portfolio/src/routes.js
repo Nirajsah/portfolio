@@ -10,9 +10,9 @@ export const Router = () => {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/" exact element={<HomePage />} />
+          <Route path="/portfolio" exact element={<HomePage />} />
           <Route path="/resume" element={<ResumePage />} />
-          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/pfolio" element={<PortfolioPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </BrowserRouter>

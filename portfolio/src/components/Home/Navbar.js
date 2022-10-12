@@ -5,11 +5,11 @@ const Navbar = () => {
   return (
     <div className="py-[3.5rem] px-[4rem]">
       <nav className="flex justify-between">
-        <Link to="/">
+        <Link to="/portfolio">
           <div className="font-semibold text-xl">Niraj Sah</div>
         </Link>
         <ul className="flex gap-[45px] ">
-          <Link to="/">
+          <Link to="/portfolio">
             <li className="menu-item menu-item-has-children current-menu-item opacity-50 hover:opacity-100">
               About Me
             </li>
@@ -17,7 +17,7 @@ const Navbar = () => {
           <Link to="/resume">
             <li className="opacity-50 hover:opacity-100">Resume</li>
           </Link>
-          <Link to="/portfolio">
+          <Link to="/pfolio">
             <li className="opacity-50 hover:opacity-100">Portfolio</li>
           </Link>
           <Link to="/contact">
