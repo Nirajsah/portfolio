@@ -21,7 +21,7 @@ const Body = () => {
             Quisque imperdiet lacinia urna, a placerat sapien pretium eu.
           </p>
           <div className="flex mt-[1rem] gap-2">
-            <button className="px-7 py-2 hover:bg-[#007ced] hover:text-cyan-50 drop-shodow-lg rounded-full text-sm border-2 border-[#007ced]">
+            <button className=" px-7 py-2 hover:bg-[#007ced] hover:text-cyan-50 drop-shodow-lg rounded-full text-sm border-2 border-[#007ced]">
               Download CV
             </button>
             <button className="border-2 border-gray-300 drop-shadow-lg hover:bg-gray-300 px-7 text-sm py-2 rounded-full ">

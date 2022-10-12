@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 
 const HomePage = () => {
   return (
-    <div className="h-[800px] w-auto bg-white mx-[6rem] my-[3rem] rounded-[40px]">
+    <div className="border shadow-4xl shadow-current h-[800px] w-auto bg-white mx-[6rem] my-[3rem] rounded-[40px]">
       <Navbar />
       <Body />
     </div>

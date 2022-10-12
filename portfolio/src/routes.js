@@ -1,9 +1,9 @@
 import React from "react";
 import HomePage from "./components/Home/HomePage";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Portfolio from "./components/Navbar/Portfolio";
-import Contact from "./components/Navbar/Contact";
-import ResumePage from "./components/Resume/ResumePage";
+import ResumePage from "./components/Navbar/ResumePage";
+import PortfolioPage from "./components/Navbar/PortfolioPage";
+import ContactPage from "./components/Navbar/ContactPage";
 
 export const Router = () => {
   return (
@@ -12,8 +12,8 @@ export const Router = () => {
         <Routes>
           <Route path="/" exact element={<HomePage />} />
           <Route path="/resume" element={<ResumePage />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
+          <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </BrowserRouter>
     </div>
