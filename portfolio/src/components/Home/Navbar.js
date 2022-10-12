@@ -9,7 +9,7 @@ const Navbar = () => {
           <div className="font-semibold text-xl">Niraj Sah</div>
         </Link>
         <ul className="flex gap-[45px] ">
-          <Link to="/portfolio">
+          <Link to="/">
             <li className="menu-item menu-item-has-children current-menu-item opacity-50 hover:opacity-100">
               About Me
             </li>
