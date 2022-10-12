@@ -17,7 +17,7 @@ const Navbar = () => {
           <Link to="/resume">
             <li className="opacity-50 hover:opacity-100">Resume</li>
           </Link>
-          <Link to="/portfolio_v1">
+          <Link to="/portfolio">
             <li className="opacity-50 hover:opacity-100">Portfolio</li>
           </Link>
           <Link to="/contact">

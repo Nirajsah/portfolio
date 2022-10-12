@@ -12,7 +12,7 @@ export const Router = () => {
         <Routes>
           <Route path="/" exact element={<HomePage />} />
           <Route path="/resume" element={<ResumePage />} />
-          <Route path="/portfolio_v1" element={<PortfolioPage />} />
+          <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/contact" element={<ContactPage />} />
         </Routes>
       </BrowserRouter>
