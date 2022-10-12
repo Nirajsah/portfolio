@@ -5,8 +5,8 @@
   "main": "index.js",
   "repository": "git@github.com:Nirajsah/portfolio.git",
   "scripts": {
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "Niraj Sah",
   "license": "MIT",
