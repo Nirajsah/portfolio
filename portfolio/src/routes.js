@@ -8,7 +8,7 @@ export const Router = () => {
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path="/home" exact element={<Work />} />
+          <Route path="/" exact element={<Work />} />
         </Routes>
       </BrowserRouter>
     </div>
