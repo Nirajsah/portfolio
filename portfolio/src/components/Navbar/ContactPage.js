@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 
 const ContactPage = () => {
   const ContactForm = () => {
@@ -43,11 +43,11 @@ const ContactPage = () => {
           Send message
         </button>
       </form>
-    );
-  };
+    )
+  }
 
   return (
-    <div className="h-[70rem] w-auto bg-white rounded-[40px]">
+    <div className="h-[650px] w-auto bg-white rounded-[40px]">
       <div className="flex border-y-gray-300 border-b border-t justify-between content-center py-[3.5rem]">
         <div className="pl-[4rem] font-bold text-4xl">Contact</div>
         <div className="text-sm pr-[4rem] self-start opacity-40 mt-[-2rem]">
@@ -67,7 +67,7 @@ const ContactPage = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ContactPage;
+export default ContactPage
