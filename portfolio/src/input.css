@@ -1,3 +1,81 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Hide scrollbar for Chrome, Safari, and Opera */
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge, and Firefox */
+.hide-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+.webkit-font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.before-content {
+  @apply relative block;
+}
+
+.before-content::before {
+  content: '';
+  width: 100%; /* adjust as needed */
+  height: 2px; /* adjust as needed */
+  background-color: rgb(209 213 219); /* adjust as needed */
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+}
+
+.border-bottom::before {
+  content: '';
+  width: calc(100% - 35px); /* adjust as needed */
+  height: 1px; /* adjust as needed */
+  background-color: #6d6e73; /* adjust as needed */
+  display: block;
+  position: absolute;
+  left: 20px;
+  bottom: -22px;
+}
+
+.hover-up:hover {
+  transform: translateY(-10px); /* adjust as needed */
+  transition: all 0.3s ease; /* adjust as needed */
+}
+
+.border-left::after {
+  content: '';
+  position: absolute;
+  display: block;
+  height: 100%;
+  background-color: #6d6e73;
+  width: 1px;
+  left: 20px;
+  bottom: -22px;
+}
+
+.before-content::after {
+  content: '';
+  width: 40%; /* adjust as needed */
+  height: 2px; /* adjust as needed */
+  background-color: #007ced;
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+}
