@@ -8,6 +8,7 @@ const About = () => {
           className="border-[7px] md:border-[10px] lg:border-[20px] drop-shadow-2xl border-white rounded-full w-[280px] md:w-[300px] lg:w-[370px] lg:h-[370px]"
           src={Gojo}
           alt="Profile"
+          loading="lazy"
         />
         <div className="items-center lg:items-start p-3 gap-3 flex flex-col content-start">
           <div className="opacity-30 mb-[-15px]">Full-Stack Web Developer</div>

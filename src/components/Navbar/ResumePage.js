@@ -91,7 +91,7 @@ const ResumePage = () => {
       <div className="flex flex-col items-start bg-gray-100 lg:flex-row border-y-gray-300 w-full md:justify-between border-b lg:border-t content-center px-[40px] py-[30px] lg:py-[3.5rem]">
         <div className="lg:pl-[4rem] font-bold text-4xl">Resume</div>
         <div className="text-sm lg:pr-[4rem] lg:self-start opacity-40 lg:mt-[-2rem]">
-          6 Months of Experience
+          1 Year+ of Experience
         </div>
       </div>
       <div className="p-[20px] my-5 flex md:flex-row gap-16 flex-col w-full md:p-[2rem] h-auto lg:p-[3rem]">
