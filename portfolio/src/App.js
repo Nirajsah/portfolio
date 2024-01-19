@@ -1,7 +1,7 @@
 import { Router } from './routes'
 function App() {
   return (
-    <div className="bg-[#007ced]">
+    <div>
       <Router />
     </div>
   )
