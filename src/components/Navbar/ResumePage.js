@@ -42,15 +42,16 @@ const educationData = {
       year: '2024',
       university: 'Amity University',
       title: 'Computer Science and Engineering',
+
       description:
-        'Empower yourself with the knowledge and skills to shape the digital landscape as you embark on a transformative journey with our Bachelor of Technology (B.Tech) program at [University Name].',
+        "I'm on track to graduate in June 2024, fueled by my passion for technology and the endless possibilities it holds. Excited to embark on a journey where innovation and problem-solving converge, I look forward to the challenges and breakthroughs that lie ahead.",
     },
     {
       year: '2020',
       university: 'Bhagwat Vidyapeeth School',
       title: 'Board',
       description:
-        'Empower yourself with the knowledge and skills to shape the digital landscape as you embark on a transformative journey with our Bachelor of Technology (B.Tech) program at [University Name].',
+        'In 2020, I completed my 12th board exams, emphasizing resilience and a commitment to continual improvement in my academic journey.',
     },
   ],
 }
@@ -63,7 +64,7 @@ const experienceData = {
       university: 'Frolic HealthTech',
       title: 'Software Engineer Intern',
       description:
-        'Empower yourself with the knowledge and skills to shape the digital landscape as you embark on a transformative journey with our Bachelor of Technology (B.Tech) program at [University Name].',
+        "As a 2023 Software Engineering Intern, I spearheaded the development of a startup's web application, handling both frontend (React) and backend (Node.js, Express). Despite the startup's closure, this hands-on experience enriched my skills in full-stack development and provided insights into the realities of the tech industry.",
     },
   ],
 }
@@ -72,7 +73,7 @@ const Skills = ({ title, percentage }) => {
   return (
     <div className="w-full flex flex-col">
       <div className="flex justify-between">
-        <span className="font-bold text-md">{title}</span>
+        <span className="font-bold text-sm">{title}</span>
         <span className="font-bold text-xs">{percentage}%</span>
       </div>
       <span className="w-full rounded-3xl flex items-center py-1.5 px-0.5 relative border-2">
@@ -91,7 +92,7 @@ const ResumePage = () => {
       <div className="flex flex-col items-start bg-gray-100 lg:flex-row border-y-gray-300 w-full md:justify-between border-b lg:border-t content-center px-[40px] py-[30px] lg:py-[3.5rem]">
         <div className="lg:pl-[4rem] font-bold text-4xl">Resume</div>
         <div className="text-sm lg:pr-[4rem] lg:self-start opacity-40 lg:mt-[-2rem]">
-          1 Year+ of Experience
+          1 Year of hands-on Experience
         </div>
       </div>
       <div className="p-[20px] my-5 flex md:flex-row gap-16 flex-col w-full md:p-[2rem] h-auto lg:p-[3rem]">
@@ -155,17 +156,14 @@ const ResumePage = () => {
         <div className="w-full mt-5 gap-6 items-center grid lg:grid-cols-2">
           <Skills title="ReactJs/NextJs" percentage="75" />
           <Skills title="JavaScript/TypeScript" percentage="80" />
-          <Skills title="NodeJs" percentage="70" />
-          <Skills title="ExpressJs" percentage="85" />
+          <Skills title="NodeJs/ExpressJs" percentage="70" />
           <Skills title="MongoDB" percentage="80" />
-          <Skills title="HTML/CSS" percentage="95" />
-          <Skills title="C" percentage="70" />
-          <Skills title="C++" percentage="70" />
+          <Skills title="HTML/CSS" percentage="100" />
+          <Skills title="C/C++" percentage="70" />
           <Skills title="Python" percentage="70" />
           <Skills title="Java" percentage="60" />
-          <Skills title="Git" percentage="80" />
-          <Skills title="GitHub" percentage="80" />
-          <Skills title="PostgreSQL" percentage="60" />
+          <Skills title="Git/Github" percentage="80" />
+          <Skills title="MySQL/PostgreSQL" percentage="70" />
         </div>
       </div>
     </div>

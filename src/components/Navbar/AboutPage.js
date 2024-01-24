@@ -1,20 +1,24 @@
 import React from 'react'
-import Gojo from '../Home/gojo.jpg'
+import Niraj from '../../assets/nirajsah.webp'
 const About = () => {
   return (
     <div className="flex justify-center overflow-auto h-screen lg:mx-[6rem] rounded-[40px] w-auto lg:h-[650px]">
-      <div className="flex my-[1.5rem] mt-[50px] md:mt-0 px-[20px] lg:h-[400px] max-w-[840px] gap-4 items-center flex-col md:flex-row lg:my-[3rem]">
+      <div className="flex my-[1.5rem] justify-between mt-[50px] md:mt-0 px-[20px] lg:h-[400px] max-w-[840px] gap-4 items-center flex-col md:flex-row lg:my-[3rem]">
         <img
-          className="border-[7px] md:border-[10px] lg:border-[20px] drop-shadow-2xl border-white rounded-full w-[280px] md:w-[300px] lg:w-[370px] lg:h-[370px]"
-          src={Gojo}
+          className="border-[7px] md:border-[10px] lg:border-[18px] drop-shadow-2xl border-white rounded-full w-[280px] md:w-[300px] lg:w-[340px] lg:h-[340px]"
+          src={Niraj}
           alt="Profile"
           loading="lazy"
         />
-        <div className="items-center lg:items-start p-3 gap-3 flex flex-col content-start">
+        <div className="items-start p-3 gap-3 flex flex-col content-start">
           <div className="opacity-30 mb-[-15px]">Full-Stack Web Developer</div>
           <div className="font-bold text-[32px] md:text-[50px]">Niraj Sah</div>
-          <p className="opacity-50 text-sm md:text-lg text-center md:text-start text-pretty capitalize lg:pr-[40px] lg:mr-[40px]">
-            studing writing learning reading.
+          <p className="opacity-50 p-1 text-sm md:text-md leading-5 md:text-start capitalize ">
+            Hello! I'm Niraj Sah, a 21-year-old developer set to graduate in
+            June 2024. I bring a year of hands-on experience and am currently
+            immersed in the world of web applications. Additionally, I am
+            actively exploring the realms of Neural Networks and Machine
+            Learning.
           </p>
           <div className="flex mt-[1rem] gap-2">
             <button className="duration-300 font-semibold hover:scale-105 ease-in-out px-3 md:px-7 md:py-2 py-2 hover:bg-[#007ced] hover:text-cyan-50 drop-shodow-lg rounded-full text-sm border-2 border-[#007ced]">
