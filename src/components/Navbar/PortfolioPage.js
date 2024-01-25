@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Homepage from '../../assets/HomePage.webp'
 const PortfolioPage = () => {
   return (
@@ -17,6 +16,7 @@ const PortfolioPage = () => {
               className="w-full object-cover rounded-xl h-full"
               src={Homepage}
               alt={Homepage}
+              loading="lazy"
             />
             <div className="flex flex-col justify-center items-center mt-1">
               <h1 className="text-center">Coza Store</h1>
