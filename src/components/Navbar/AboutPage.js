@@ -18,12 +18,6 @@ const About = () => {
             alt={Niraj}
           />
         </div>
-        {/* <img
-          className="border-[7px] object-cover md:border-[10px] lg:border-[18px] drop-shadow-2xl border-white rounded-full w-[280px] md:w-[300px] lg:w-[340px] lg:h-[340px]"
-          src={Niraj}
-          alt="Profile"
-          loading="lazy"
-        /> */}
         <div className="items-start p-3 gap-3 flex flex-col content-start">
           <div className="opacity-30 mb-[-15px]">Full-Stack Web Developer</div>
           <div className="font-bold text-[32px] md:text-[50px]">Niraj Sah</div>
