@@ -11,13 +11,17 @@ const PortfolioPage = () => {
         </div>
       </div>
       <div className="p-[20px] my-5 flex md:flex-row gap-16 flex-col w-full md:p-[2rem] h-auto lg:p-[3rem]">
-        <div className="w-[320px] hover:scale-105 transition-all duration-100 h-[220px]">
-          <a href="https://coza-store-rose.vercel.app/">
+        <div className="w-full max-w-[320px] hover:scale-105 transition-all duration-100 h-[220px]">
+          <a href="https://coza-store-rose.vercel.app/" target="_blank">
             <img
-              className="w-full rounded-2xl h-full"
+              className="w-full object-cover rounded-xl h-full"
               src={Homepage}
               alt={Homepage}
             />
+            <div className="flex flex-col justify-center items-center mt-1">
+              <h1 className="text-center">Coza Store</h1>
+              <p className="text-center text-sm">An E-Commerce Store</p>
+            </div>
           </a>
         </div>
       </div>

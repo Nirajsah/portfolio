@@ -5,7 +5,7 @@ const About = () => {
     <div className="flex justify-center overflow-auto h-screen lg:mx-[6rem] rounded-[40px] w-auto lg:h-[650px]">
       <div className="flex my-[1.5rem] justify-between mt-[50px] md:mt-0 px-[20px] lg:h-[400px] max-w-[840px] gap-4 items-center flex-col md:flex-row lg:my-[3rem]">
         <img
-          className="border-[7px] md:border-[10px] lg:border-[18px] drop-shadow-2xl border-white rounded-full w-[280px] md:w-[300px] lg:w-[340px] lg:h-[340px]"
+          className="border-[7px] object-cover md:border-[10px] lg:border-[18px] drop-shadow-2xl border-white rounded-full w-[280px] md:w-[300px] lg:w-[340px] lg:h-[340px]"
           src={Niraj}
           alt="Profile"
           loading="lazy"

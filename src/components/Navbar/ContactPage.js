@@ -57,7 +57,7 @@ const ContactPage = () => {
         </div>
       </div>
 
-      <div className="w-auto grid grid-cols-2 gap-10 p-[4rem]">
+      <div className="w-auto flex flex-col md:flex-row justify-center gap-10 p-[1rem] lg:p-[4rem]">
         <div className="h-auto grid grid-rows-2 gap-1">
           <div>Phone Number</div>
           <div>Mail</div>
