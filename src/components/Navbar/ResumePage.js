@@ -158,7 +158,7 @@ const ResumePage = () => {
           <Skills title="JavaScript/TypeScript" percentage="80" />
           <Skills title="NodeJs/ExpressJs" percentage="70" />
           <Skills title="MongoDB" percentage="80" />
-          <Skills title="HTML/CSS" percentage="100" />
+          <Skills title="HTML/CSS" percentage="95" />
           <Skills title="C/C++" percentage="70" />
           <Skills title="Python" percentage="70" />
           <Skills title="Java" percentage="60" />
