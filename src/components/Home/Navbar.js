@@ -1,5 +1,4 @@
 import React, { useContext } from 'react'
-import { Link } from 'react-router-dom'
 import { TabContext } from '../TabProvider'
 const Navbar = () => {
   const { handleTabChange, tab } = useContext(TabContext) ?? {}
@@ -9,17 +8,15 @@ const Navbar = () => {
   return (
     <div className="lg:py-[3rem] lg:px-[3rem] rounded-[40px] bg-white">
       <nav className="flex justify-between">
-        <Link to="/home">
-          <div className="font-semibold hidden gap-2 lg:flex items-center text-3xl">
-            <span className="w-[50px] h-[50px] flex justify-center items-center text-2xl font-black rounded-full bg-[#007ced] text-white">
-              N
-            </span>
-            <div className="space-x-1">
-              <span className="text-2xl font-bold">Niraj</span>
-              <span className="text-thin text-2xl">Sah</span>
-            </div>
+        <div className="font-semibold hidden gap-2 lg:flex items-center text-3xl">
+          <span className="w-[50px] h-[50px] flex justify-center items-center text-2xl font-black rounded-full bg-[#007ced] text-white">
+            N
+          </span>
+          <div className="space-x-1">
+            <span className="text-2xl font-bold">Niraj</span>
+            <span className="text-thin text-2xl">Sah</span>
           </div>
-        </Link>
+        </div>
         <ul className="lg:flex hidden gap-[45px] active: opacity-100">
           <button onClick={() => handleClick('aboutme')}>
             <li className={tab === 'aboutme' ? 'opacity-100' : 'text-gray-500'}>
