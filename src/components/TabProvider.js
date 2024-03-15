@@ -1,4 +1,4 @@
-import React, { createContext, useState } from 'react'
+import React, { createContext, useContext, useState } from 'react'
 export const TabContext = createContext(null)
 const TabProvider = (props) => {
   const [tab, setTab] = useState('aboutme')
@@ -17,3 +17,7 @@ const TabProvider = (props) => {
 }
 
 export default TabProvider
+
+const useTab = () => {
+  return useContext(TabContext)
+}

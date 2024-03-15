@@ -8,7 +8,8 @@ const About = () => {
   }
   const handleDownload = () => {
     const resumeUrl =
-      'https://drive.google.com/file/d/1K4abaYrTWXlcfsdH4pQE8BIgFt_ESthZ/view?usp=sharing'
+      'https://drive.google.com/drive/folders/1OOlI1EoMqSb0ertAGEtrttZEOxgNQX88?usp=drive_link'
+
     const link = document.createElement('a')
     link.href = resumeUrl
     link.download = 'Niraj_Sah_CV.pdf'
