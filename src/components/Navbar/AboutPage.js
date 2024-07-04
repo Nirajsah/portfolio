@@ -31,12 +31,12 @@ const About = () => {
         <div className="items-start p-3 gap-3 flex flex-col content-start">
           <div className="opacity-30 mb-[-15px]">Full-Stack Web Developer</div>
           <div className="font-bold text-[32px] md:text-[50px]">Niraj Sah</div>
-          <p className="opacity-50 p-1 text-sm md:text-md leading-5 md:text-start capitalize ">
-            Hello! I'm Niraj Sah, a 21-year-old developer set to graduate in
-            June 2024. I bring a year of hands-on experience and am currently
-            immersed in the world of web applications. Additionally, I am
-            actively exploring the realms of Neural Networks and Machine
-            Learning.
+          <p className="opacity-50 p-1 text-sm md:text-md leading-5 md:text-start">
+            I'm Niraj Sah, a developer specializing in web and blockchain
+            technologies. As a recent graduate, I bring fresh perspectives and
+            practical skills to create efficient, innovative digital solutions.
+            My passion lies in contributing to projects that push the boundaries
+            of what's possible in tech.
           </p>
           <div className="flex flex-col md:flex-row mt-[1rem] gap-2">
             <button
@@ -49,7 +49,7 @@ const About = () => {
               onClick={() => handleClick('contact')}
               className="duration-300 font-semibold hover:scale-105 ease-in-out border-2 border-[#d5d5d5] drop-shadow-lg hover:bg-[#d5d5d5] px-5 md:px-7 text-sm py-2 rounded-full"
             >
-              Contact
+              Contact Me
             </button>
           </div>
         </div>
