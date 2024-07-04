@@ -44,7 +44,7 @@ const educationData = {
       title: 'Computer Science and Engineering',
 
       description:
-        "I'm on track to graduate in June 2024, fueled by my passion for technology and the endless possibilities it holds. Excited to embark on a journey where innovation and problem-solving converge, I look forward to the challenges and breakthroughs that lie ahead.",
+        'Graduated in June 2024, fueled by my passion for technology and the endless possibilities it holds. Excited to embark on a journey where innovation and problem-solving converge, I look forward to the challenges and breakthroughs that lie ahead.',
     },
     {
       year: '2020',
@@ -161,7 +161,7 @@ const ResumePage = () => {
           <Skills title="HTML/CSS" percentage="95" />
           <Skills title="C/C++" percentage="70" />
           <Skills title="Python" percentage="70" />
-          <Skills title="Java" percentage="60" />
+          <Skills title="Rust" percentage="60" />
           <Skills title="Git/Github" percentage="80" />
           <Skills title="MySQL/PostgreSQL" percentage="70" />
         </div>
