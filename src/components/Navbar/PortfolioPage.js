@@ -9,9 +9,34 @@ const PortfolioPage = () => {
           My Works
         </div>
       </div>
-      <div className="p-[20px] my-5 flex md:flex-row gap-16 flex-col w-full md:p-[2rem] h-auto lg:p-[3rem]">
+      <div className="p-[20px] my-5 flex md:flex-row gap-6 flex-col w-full md:p-[2rem] h-auto lg:p-[3rem]">
         <div className="w-full max-w-[320px] hover:scale-105 transition-all duration-100 h-[220px]">
-          <a href="https://coza-store-rose.vercel.app/" target="_blank">
+          <a
+            href="https://github.com/Nirajsah/LinLin"
+            rel="noreferrer"
+            target="_blank"
+          >
+            {/* <img
+              className="w-full object-cover rounded-xl h-full"
+              src={Homepage}
+              alt={Homepage}
+              loading="lazy"
+            /> */}
+            <div className="w-full rounded-xl h-full border grid place-content-center"></div>
+            <div className="flex flex-col justify-center items-center mt-1">
+              <h1 className="text-center font-bold">LinLin</h1>
+              <p className="text-center text-sm">
+                A Decentralised Auction Platform
+              </p>
+            </div>
+          </a>
+        </div>
+        <div className="w-full max-w-[320px] hover:scale-105 transition-all duration-100 h-[220px]">
+          <a
+            href="https://coza-store-rose.vercel.app/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <img
               className="w-full object-cover rounded-xl h-full"
               src={Homepage}
@@ -19,7 +44,7 @@ const PortfolioPage = () => {
               loading="lazy"
             />
             <div className="flex flex-col justify-center items-center mt-1">
-              <h1 className="text-center">Coza Store</h1>
+              <h1 className="text-center font-bold">Coza Store</h1>
               <p className="text-center text-sm">An E-Commerce Store</p>
             </div>
           </a>
