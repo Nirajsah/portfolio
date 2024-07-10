@@ -1,5 +1,6 @@
 import React from 'react'
-import Homepage from '../../assets/HomePage.webp'
+import CHomepage from '../../assets/HomePage.webp'
+import LinLin from '../../assets/LinLin.png'
 const PortfolioPage = () => {
   return (
     <div className="lg:h-[650px] h-screen overflow-auto w-auto bg-white rounded-b-[40px]">
@@ -9,20 +10,19 @@ const PortfolioPage = () => {
           My Works
         </div>
       </div>
-      <div className="p-[20px] my-5 flex md:flex-row gap-6 flex-col w-full md:p-[2rem] h-auto lg:p-[3rem]">
+      <div className="p-[20px] my-5 flex sm:flex-row gap-6 flex-col gap-y-16 w-full md:p-[2rem] h-fit lg:p-[3rem]">
         <div className="w-full max-w-[320px] hover:scale-105 transition-all duration-100 h-[220px]">
           <a
             href="https://github.com/Nirajsah/LinLin"
             rel="noreferrer"
             target="_blank"
           >
-            {/* <img
-              className="w-full object-cover rounded-xl h-full"
-              src={Homepage}
-              alt={Homepage}
+            <img
+              className="w-full object-fit rounded-xl h-full"
+              src={LinLin}
+              alt="LinLin"
               loading="lazy"
-            /> */}
-            <div className="w-full rounded-xl h-full border grid place-content-center"></div>
+            />
             <div className="flex flex-col justify-center items-center mt-1">
               <h1 className="text-center font-bold">LinLin</h1>
               <p className="text-center text-sm">
@@ -39,8 +39,8 @@ const PortfolioPage = () => {
           >
             <img
               className="w-full object-cover rounded-xl h-full"
-              src={Homepage}
-              alt={Homepage}
+              src={CHomepage}
+              alt="CozaStore HomePage"
               loading="lazy"
             />
             <div className="flex flex-col justify-center items-center mt-1">
